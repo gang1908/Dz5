@@ -2,6 +2,9 @@ import UIKit
 
 var greeting = "Hello, playground"
 
+// Прости, пожалуйста, у меня айкью минус 7. я ничего не понимаю(((
+
+
 //enum currency: String {
 //case USD = "$"
 //case EUR = "€"
@@ -9,11 +12,20 @@ var greeting = "Hello, playground"
 //}
 //
 //func getExchangeRate(from: currency, to: currency) -> Double? {
-//   
+//    let usdToByn = 3.2
+//    let bynToUsd = 0.32
+//    let eurToByn = 3.56
+//    let bynToEur = 0.356
+//    
+//    if currency == .USD && currency == .BYN {
+//        return usdToByn
 //    }
 //}
 
+
+
 enum Grade: Int {
+    
     case A = 90
     case B = 80
     case C = 70
